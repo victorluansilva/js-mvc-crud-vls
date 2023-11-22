@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "João",
+    "idade": "21",
+    "login": "joaobomba",
+    "senha": "aasdfafasdf"
+  },
+  {
+    "nome": "Maria",
+    "idade": "35",
+    "login": "mariabambina",
+    "senha": "aasdfafasdf"
+  },
+  {
+    "nome": "José",
+    "idade": "25",
+    "login": "jose",
+    "senha": "aasdfafasdf"
+  },
+  {
+    "nome": "Cauã",
+    "idade": 17,
+    "login": "cauaexplosivo",
+    "senha": "aasdfafasdf"
+  },
+  {
+    "nome": "Teste",
+    "idade": "12",
+    "login": "ad",
+    "senha": "sasdf"
+  },
+  {
+    "nome": "Henrique",
+    "idade": "21",
+    "login": "causadordetreta",
+    "senha": "sasdf"
+  },
+  {
+    "nome": "Renan",
+    "idade": "18",
+    "login": "iniciadordebravas",
+    "senha": "sasdf"
+  },
+  {
+    "nome": "BotaMaisALguem",
+    "idade": "25",
+    "login": "ad",
+    "senha": "sasdf"
+  }
+]
