@@ -1,5 +1,5 @@
-const resultView = {
-  build: () => {
+const tableComponent = {
+  render: () => {
     const root = document.getElementById("root");
     const tableResult = document.createElement("table");
     tableResult.setAttribute("id", "resultTable");
@@ -45,4 +45,4 @@ const resultView = {
     }
   },
 };
-export { resultView };
+export { tableComponent };

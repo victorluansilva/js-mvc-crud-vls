@@ -1,11 +1,5 @@
 [
   {
-    "nome": "João",
-    "idade": "21",
-    "login": "joaobomba",
-    "senha": "aasdfafasdf"
-  },
-  {
     "nome": "Maria",
     "idade": "35",
     "login": "mariabambina",
@@ -19,7 +13,7 @@
   },
   {
     "nome": "Cauã",
-    "idade": 17,
+    "idade": "17",
     "login": "cauaexplosivo",
     "senha": "aasdfafasdf"
   },
