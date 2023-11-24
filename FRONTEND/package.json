@@ -1,0 +1,17 @@
+{
+    "name": "myfrontend",
+    "version": "1.0.0",
+    "description": "Config do frontend da aplicação",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel --port 5050 --open chrome index.html",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "parcel-bundler":"^1.6.1"
+    }
+  }
+  

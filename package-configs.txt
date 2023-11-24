@@ -1,0 +1,57 @@
+Raiz do projeto package.json
+
+{
+  "name": "mvc-project",
+  "scripts": {
+    "install-backend": "cd BACKEND && npm install",
+    "install-frontend": "cd FRONTEND && npm install",
+    "install": "npm-run-all --sequential install-backend install-frontend",
+    "start-backend": "cd BACKEND && npm start",
+    "start-frontend": "cd FRONTEND && npm start",
+    "start": "npm-run-all --parallel start-backend start-frontend"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
+
+
+FRONTEND package.json
+
+{
+    "name": "myfrontend",
+    "version": "1.0.0",
+    "description": "Config do frontend da aplicação",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel --port 5050 --open chrome index.html",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "parcel-bundler":"^1.6.1"
+    }
+  }
+  
+
+BACKEND package.json
+
+{
+  "name": "mybackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors":"^2.8.5",
+    "express":"^4.18.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "mvc-project",
+  "scripts": {
+    "install-backend": "cd BACKEND && npm install",
+    "install-frontend": "cd FRONTEND && npm install",
+    "install": "npm-run-all --sequential install-backend install-frontend",
+    "start-backend": "cd BACKEND && npm start",
+    "start-frontend": "cd FRONTEND && npm start",
+    "start": "npm-run-all --parallel start-backend start-frontend"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

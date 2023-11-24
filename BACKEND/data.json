@@ -18,12 +18,6 @@
     "senha": "aasdfafasdf"
   },
   {
-    "nome": "Teste",
-    "idade": "12",
-    "login": "ad",
-    "senha": "sasdf"
-  },
-  {
     "nome": "Henrique",
     "idade": "21",
     "login": "causadordetreta",
@@ -40,5 +34,11 @@
     "idade": "25",
     "login": "ad",
     "senha": "sasdf"
+  },
+  {
+    "nome": "Exemplo",
+    "idade": "21",
+    "login": "werq",
+    "senha": "asfasdf"
   }
 ]
